@@ -44,7 +44,7 @@ a{
    <a href="home.php" onclick="w3_close()" class="w3-left w3-button ">PURVA Devlopers</a>
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-red w3-right w3-button">X</a>
-  <a href="home" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue w3-left "></span></a>
+  <a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue w3-left "></span></a>
   <a  class="w3-bar-item w3-button w3-green">&nbsp;Hi<b> <?php echo $userRow['userName']; ?></b>&nbsp;</span></a>
   <img class="w3-bar-item" src="w3images/a1.jpg"  >
   <a href="project.php" onclick="w3_close()" class="w3-bar-item w3-button w3-grey">Projects</a>
