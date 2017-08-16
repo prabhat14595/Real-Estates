@@ -27,13 +27,39 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+<style type="text/css">
+  a{
+  text-decoration: none;
+}
+  
+</style>
+
 <!-- Latest compiled and minified CSS -->
 </head>
 <body>
 
+
+  
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-large w3-animate-left w3-text-grey" style="display:none;z-index:2;width:25%;min-width:260px" id="mySidebar">
+   <a href="home.php" onclick="w3_close()" class="w3-left w3-button ">PURVA Devlopers</a>
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-red w3-right w3-button">X</a>
+  <a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue w3-left "></span></a>
+  <a  class="w3-bar-item w3-button w3-green">&nbsp;Hi<b> <?php echo $userRow['userName']; ?></b>&nbsp;</span></a>
+  <img class="w3-bar-item" src="w3images/a1.jpg"  >
+  <a href="project.php" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a>
+  <a href="about.php" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="contact.php" onclick="w3_close()" class="w3-bar-item w3-button w3-blue">Contact</a>
+  <a href="logout.php?logout" class="w3-bar-item w3-button w3-text-red">&nbsp;Sign Out</a>
+</nav>
+
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
-    <a href="home.php" class="w3-bar-item w3-button w3-text-blue"><b>PURVA</b> Developers</a>
+    <a class="w3-bar-item w3-button w3-left w3-small" onclick="w3_open()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <a href="home.php" class="w3-bar-item w3-button w3-text-blue w3-hide-small"><b>PURVA</b> Developers</a>
+     <a href="home.php" class="w3-small w3-bar-item w3-text-blue w3-hide-large w3-hide-medium">PURVA Developer</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
     <a href="home.php"><span class="fa fa-home w3-bar-item w3-xlarge w3-button "></span></a>
@@ -125,6 +151,17 @@ Facebook link-</h3>
     <p class="w3-small">All Right Reserve &copy;<a href="index.php" target="_blank" class="w3-hover-text-green">Purva Devlopers </a></p>
   <!-- End footer -->
   </footer>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
 
 
 
