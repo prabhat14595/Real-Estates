@@ -88,14 +88,39 @@
   #nav{
     opacity: 0.9;
   }
+  a{
+    text-decoration: none;
+  }
   
 </style>
 </head>
 <body>
 
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-large w3-animate-left w3-text-grey" style="display:none;z-index:2;width:25%;min-width:260px" id="mySidebar">
+   <a href="home.php" onclick="w3_close()" class="w3-left w3-button ">PURVA Devlopers</a>
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-red w3-right w3-button">X</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue w3-left "></span></a>
+  <a  class="w3-bar-item w3-button w3-green">&nbsp;Hi<b> <?php echo $userRow['userName']; ?></b>&nbsp;</span></a>
+  <img class="w3-bar-item" src="w3images/a1.jpg"  >
+  <a href="project.php" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a>
+  <a href="about.php" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+  <a href="contact.php" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a>
+  
+  <a href="logout.php?logout" class="w3-bar-item w3-button w3-text-red">&nbsp;Sign Out</a>
+</nav>
+
+
+
+
+
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card-2" id="navbar">
-    <a href="home.php" class="w3-bar-item w3-button w3-text-blue"><b>PURVA</b> Developers</a>
+     <a class="w3-bar-item w3-button w3-left w3-small" onclick="w3_open()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <a href="home.php" class="w3-bar-item w3-button w3-text-blue w3-hide-small"><b>PURVA</b> Developers</a>
+     <a href="home.php" class="w3-small w3-bar-item w3-text-blue w3-hide-large w3-hide-medium">PURVA Developer</a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
     <a href="home.php"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue "></span></a>
@@ -211,7 +236,7 @@
 
    
   <div class="w3-container w3-padding-32">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-jumbo w3-text-blue">Portpholio</h3>
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 w3-xxlarge w3-text-blue">Portpholio</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris uip ex ea commodo consequat. Excepteur sint
       occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
       laboris nisi ut aliquip ex ea commodo consequat.
@@ -293,6 +318,17 @@
   </div>
 </div>
 
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
 
 
 
