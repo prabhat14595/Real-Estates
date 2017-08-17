@@ -60,17 +60,17 @@ a{
  
 </header>
 
+
 <div class="w3-row">
 
-
-<div class="w3-col" style="width:10%"><p></p></div>
+ <div class="w3-col" style="width:10%"><p></p></div>
 <div class="w3-col" style="width:80%">
-<div class="w3-container w3-content w3-padding-16" id="call">
+<div class="w3-container w3-padding-16" id="call">
  <div class="w3-row w3-center w3-text-grey" id="call">
       <h1 class="w3-xxlarge">Our new Projects</h1>
     </div>
     
-    <div class="w3-row w3-center w3-padding-32 w3-hide-small">
+    <div class="w3-row w3-center w3-hide-small">
       <img src="w3images/p1.png" width="500px" height="300px" >
     </div>
     <div class="w3-row w3-center">
@@ -79,28 +79,30 @@ a{
     </div>
   <hr>
 <div class="w3-row w3-center w3-text-grey w3-padding-32" >
-      <h1 class="w3-large"><span>Project </span> <span class="w3-grey w3-text-white w3-padding w3-border ">MAHAVAN</span></h1>
+      <h1 class="w3-xlarge w3-hide-small">Project <span class="w3-grey w3-text-white w3-padding w3-border ">MAHAVAN</span></h1>
+      <h1 class="w3-large w3-hide-large w3-hide-medium">Project <span class="w3-grey w3-text-white w3-padding w3-border ">MAHAVAN</span></h1>
+      
     </div>
-    <div class="w3-row">
+    <div class="w3-row w3-content">
     <div class="w3-half w3-padding w3-center">
-      <img  src="w3images/p1.png" width="250px" height="250px" >
+      <img class="w3-hide-small" src="w3images/p1.png" width="250px" height="250px" >
+      <img class="w3-hide-medium w3-hide-large" src="w3images/p1.png" width="170px" height="170px" >
     </div>
     <div class="w3-half w3-center w3-padding-16">
-      <h3><b>Address-</b>Baithauli Bypass Azamgarh(UP) Pin-276001</h3>
        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
     </div>
     </div>
   <hr>
    
 <div class="w3-row w3-center w3-text-grey w3-padding-32" >
-      <h1 class="w3-large"><span>Project </span><span class="w3-grey w3-text-white w3-padding w3-border">RAMAJI PURAM</span></h1>
-      <div class=" w3-content w3-padding w3-center w3-hide-medium w3-hide-large">
-      <img  src="w3images/p1.png" width="250px" height="250px" >
+      <h1 class="w3-xlarge  w3-hide-small">Project <span class=" w3-large w3-grey w3-text-white w3-padding w3-border">RAMAJI PURAM</span></h1>
+      <h1 class="w3-large w3-hide-large w3-hide-medium">Project <span class=" w3-large w3-grey w3-text-white w3-padding ">RAMAJI PURAM</span></h1>
     </div>
+    <div class="w3-hide-medium w3-hide-large w3-half w3-padding w3-center">
+      <img  src="w3images/p1.png" width="170px" height="170px" >
     </div>
     <div class="w3-row">
     <div class="w3-half w3-center w3-padding-16">
-       <h3><b>Address-</b>Railway Station Azamgarh(UP) Pin-276001</h3>
        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
     </div>
     <div class="w3-half w3-padding w3-center w3-hide-small">
@@ -111,11 +113,13 @@ a{
 
 
   <div class="w3-row w3-center w3-text-grey w3-padding-32" >
-      <h1 class="w3-large"><span>Project </span><span class="w3-grey w3-text-white w3-padding w3-border">Upcoming</span></h1>
+      <h1 class="w3-xlarge w3-hide-small">Upcoming <span class="w3-grey w3-text-white w3-padding w3-border ">Projects</span></h1>
+      <h1 class="w3-large w3-hide-large w3-hide-medium">Upcoming <span class="w3-grey w3-text-white w3-padding w3-border ">Projects</span></h1>
     </div>
     <div class="w3-row">
-    <div class="w3-half w3-padding w3-center ">
-      <img  src="w3images/p1.png" width="250px" height="250px" >
+    <div class="w3-half w3-padding w3-center">
+      <img class="w3-hide-small" src="w3images/p1.png" width="250px" height="250px" >
+      <img class="w3-hide-medium w3-hide-large" src="w3images/p1.png" width="170px" height="170px" >
     </div>
     <div class="w3-half w3-center w3-padding-16">
        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
@@ -128,7 +132,8 @@ a{
       <h2>E-mail Us at-</h2>
     </div>
     <div class="w3-half ">
-      <h4>purvadevelopers@gmail.com</h4>
+      <h3 class="w3-hide-small">purvadevelopers@gmail.com</h3>
+      <h5 class="w3-medium w3-hide-medium w3-hide-large">purvadevelopers@gmail.com</h5>
     </div>
   </div>
 <hr>
@@ -145,10 +150,6 @@ a{
 </div>
 <div class="w3-col" style="width:10%"><p></p></div>
 </div>
-
-
-
-
 
 
 
