@@ -99,7 +99,7 @@
 
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-large w3-animate-left w3-text-grey" style="display:none;z-index:2;width:25%;min-width:260px" id="mySidebar">
-   <a href="home.php" onclick="w3_close()" class="w3-left w3-button ">PURVA Devlopers</a>
+   <a href="home.php" onclick="w3_close()" class="w3-left w3-button w3-text-blue">PURVA Devlopers</a>
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-red w3-right w3-button">X</a>
   <a href="#" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue w3-left "></span></a>
