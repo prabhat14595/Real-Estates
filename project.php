@@ -139,8 +139,8 @@ a{
       <h1 class="w3-large w3-hide-large w3-hide-medium">Upcoming <span class="w3-grey w3-text-white w3-padding w3-border ">Projects</span></h1>
     </div>
     <div class="w3-row">
-    <div class="w3-half w3-padding w3-center w3-hide-small">
-      <img  src="w3images/p1.png" width="250px" height="250px" >
+    <div class="w3-half w3-padding w3-center">
+      <img class="w3-hide-small" src="w3images/p1.png" width="250px" height="250px" >
       <img class="w3-hide-medium w3-hide-large" src="w3images/p1.png" width="170px" height="170px" >
     </div>
     <div class="w3-half w3-center w3-padding-16">
@@ -154,7 +154,8 @@ a{
       <h2>E-mail Us at-</h2>
     </div>
     <div class="w3-half ">
-      <h3>purvadevelopers@gmail.com</h3>
+      <h3 class="w3-hide-small">purvadevelopers@gmail.com</h3>
+      <h5 class="w3-medium w3-hide-medium w3-hide-large">purvadevelopers@gmail.com</h5>
     </div>
   </div>
 <hr>
