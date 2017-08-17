@@ -21,10 +21,10 @@
 
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-large w3-animate-left w3-text-grey" style="display:none;z-index:2;width:25%;min-width:260px" id="mySidebar">
-   <a href="home.php" onclick="w3_close()" class="w3-left w3-button ">PURVA Devlopers</a>
+   <a href="home.php" onclick="w3_close()" class="w3-left w3-button w3-text-blue">PURVA Devlopers</a>
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-red w3-right w3-button">X</a>
-  <a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue w3-left "></span></a>
+  <a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-left "></span></a>
   
   <img class="w3-bar-item" src="w3images/a1.jpg"  >
   <a href="project1.php" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a>
@@ -63,7 +63,7 @@
       <h2><span class="w3-text-blue w3-hide-small">Please login to get personal contact mobile no of members.</span></h2>
       <b>Call US At-</b>
       <h1 class="w3-jumbo w3-hide-small w3-text-blue">+91-94 158 35985</h1>
-       <h4 class="w3-xlarge w3-hide-medium w3-text-blue">+91-94 158 35985</h4>
+       <h4 class="w3-xlarge w3-hide-medium w3-text-blue w3-hide-large">+91-94 158 35985</h4>
     </div>
     <hr>
   <div class="w3-row w3-text-grey w3-center">

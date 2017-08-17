@@ -21,10 +21,10 @@ a{
    
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-large w3-animate-left w3-text-grey" style="display:none;z-index:2;width:25%;min-width:260px" id="mySidebar">
-   <a href="home.php" onclick="w3_close()" class="w3-left w3-button ">PURVA Devlopers</a>
+   <a href="home.php" onclick="w3_close()" class="w3-left w3-button w3-text-lime">PURVA Devlopers</a>
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-red w3-right w3-button">X</a>
-  <a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue w3-left "></span></a>
+  <a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-left "></span></a>
   <img class="w3-bar-item" src="w3images/a1.jpg"  >
   <a href="project1.php" onclick="w3_close()" class="w3-bar-item w3-button">Projects</a>
   <a href="about1.php" onclick="w3_close()" class="w3-bar-item w3-button w3-lime">About</a>
@@ -74,7 +74,7 @@ a{
  <hr>
     <div class="w3-row w3-text-grey w3-center w3-padding">
     <div class="w3-half w3-container w3-padding">
-      <img src="w3images/azamgarh.jpg" width="350" height="350">
+      <img src="w3images/azamgarh.jpg" width="270" height="350">
     </div>
     <div class="w3-half w3-container w3-padding">
       <p><h2>Azamgarh</h2>It is a city in the Indian state of Uttar Pradesh. It is the headquarters of Azamgarh division, which consists of Balia, Mau and Azamgarh districts. Azamgarh is situated on the bank of Tamsa River (Tons).Azamgarh, one of the easternmost districts of Uttar Pradesh, once formed a part of the ancient Kosala kingdom, except its north-eastern part. Azamgarh is also known as land of the sage Durvasa whose ashram was located in Phulpur tehsil, near the confluence of Tamsa and Majhuee rivers, 6 kilometres (3.7 mi) north of the Phulpur tehsil headquarters.</p>

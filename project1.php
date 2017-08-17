@@ -22,10 +22,10 @@ a{
    
 <!-- Sidebar (hidden by default) -->
 <nav class="w3-sidebar w3-bar-block w3-card-2 w3-top w3-large w3-animate-left w3-text-grey" style="display:none;z-index:2;width:25%;min-width:260px" id="mySidebar">
-   <a href="home.php" onclick="w3_close()" class="w3-left w3-button ">PURVA Devlopers</a>
+   <a href="home.php" onclick="w3_close()" class="w3-left w3-button w3-text-grey">PURVA Devlopers</a>
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-red w3-right w3-button">X</a>
-  <a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button w3-text-blue w3-left "></span></a>
+  <a href="home.php" onclick="w3_close()" class="w3-bar-item w3-button"><span class="fa fa-home w3-bar-item w3-xlarge w3-button  w3-left "></span></a>
   <img class="w3-bar-item" src="w3images/a1.jpg"  >
   <a href="project1.php" onclick="w3_close()" class="w3-bar-item w3-button w3-grey">Projects</a>
   <a href="about1.php" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
@@ -128,7 +128,7 @@ a{
       <h2>E-mail Us at-</h2>
     </div>
     <div class="w3-half ">
-      <h3>purvadevelopers@gmail.com</h3>
+      <h4>purvadevelopers@gmail.com</h4>
     </div>
   </div>
 <hr>
